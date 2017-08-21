@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main(){
+
+
+	char response;
+
+	std::cout << "Enter your response";
+	std:: cin >> response; 
+
+	switch (response) {
+
+		case 'Y': case 'y':
+			std::cout << "You chose y or Y \n";
+			break;
+
+		case 'n': case 'N':
+			std::cout << "You chose n or N \n";
+			break;
+
+		default:
+			std::cout << "You didn't choose a valid option \n" ;
+
+	}
+
+	return 0;
+}
